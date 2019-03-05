@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<body>
+
+        <h1>Registration Form</h1>
+
+        <div class="container">
+                
+                <form action="/action_page.php">
+                  <div class="form-group">
+
+    <form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname" required>
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br>
+
+        contact:<br>
+        <input type="text" name="contact" required pattern="[0-9]{10}">
+        <br>
+        email:<br>
+        <input type="text" name="email">
+        <br>
+
+        gender:<br>
+        <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  <br>
+
+
+        date_of_birth:<br>
+        <input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" class="datepicker" name="date" value="" />
+        <br>
+
+        address:<br>
+        <input type="text" name="address">
+        <br>
+
+        city:<br>
+        <input type="text" name="city">
+        <br>
+
+        state:<br>
+        <input type="text" name="state">
+        <br>
+
+        zip:<br>
+        <input type="text" name="zip">
+        <br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      
+        
+
+        <select>
+            <option value="Select">Select</option>
+            <option value="Withdraw">Withdraw</option>
+            <option value="Deposit">Deposit</option>
+            <option value="Fund transfer">Fund transfer</option>
+            <option value="Check balance">Check balance</option>
+            <option value="Details">Details</option>
+           
+          </select>
+    
+    
+    
+    </form> 
+
+
+      
+</body>
+</html>
